@@ -140,7 +140,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>CURL_STATICLIB;SIO_TLS;_CRT_SECURE_NO_WARNINGS;NOMINMAX;_DEBUG;VOID_EXPORTS;_WINDOWS;_USRDLL;_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>CURL_STATICLIB;_CRT_SECURE_NO_WARNINGS;NOMINMAX;_DEBUG;VOID_EXPORTS;_WINDOWS;_USRDLL;_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
@@ -157,7 +157,7 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
-      <AdditionalDependencies>dependencies\freetype\lib\Debug Static\freetype.lib;dependencies\cryptocpp\lib\Debug\cryptlib.lib;dependencies\minhook\lib\Debug\minhook.x64d.lib;dependencies\curl\Debug\lib\libcurl_a_debug.lib;dependencies\discord-rpc\lib\discord-rpc_d.lib;shell32.lib;ole32.lib;Normaliz.lib;Ws2_32.lib;Wldap32.lib;Crypt32.lib;advapi32.lib;sioclient_tls.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>dependencies\freetype\lib\Debug Static\freetype.lib;dependencies\cryptocpp\lib\Debug\cryptlib.lib;dependencies\minhook\lib\Debug\minhook.x64d.lib;dependencies\curl\Debug\lib\libcurl_a_debug.lib;dependencies\discord-rpc\lib\discord-rpc_d.lib;shell32.lib;ole32.lib;Normaliz.lib;Ws2_32.lib;Wldap32.lib;Crypt32.lib;advapi32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>X:\dev\freetype\objs\x64\Debug Static\freetype.lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
@@ -167,7 +167,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>SIO_TLS;WIN32_LEAN_AND_MEAN;_CRT_SECURE_NO_WARNINGS;CURL_STATICLIB;NOMINMAX;NDEBUG;_WINDOWS;_USRDLL;_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32_LEAN_AND_MEAN;_CRT_SECURE_NO_WARNINGS;CURL_STATICLIB;NOMINMAX;NDEBUG;_WINDOWS;_USRDLL;_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
@@ -186,7 +186,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
-      <AdditionalDependencies>dependencies\freetype\lib\Release Static\freetype.lib;dependencies\discord-rpc\lib\discord-rpc.lib;dependencies\cryptocpp\lib\Release\cryptlib.lib;dependencies\minhook\lib\Release\minhook.x64.lib;dependencies\curl\Release\lib\libcurl_a.lib;shell32.lib;Normaliz.lib;Ws2_32.lib;Wldap32.lib;Crypt32.lib;advapi32.lib;ole32.lib;sioclient_tls.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>dependencies\freetype\lib\Release Static\freetype.lib;dependencies\discord-rpc\lib\discord-rpc.lib;dependencies\cryptocpp\lib\Release\cryptlib.lib;dependencies\minhook\lib\Release\minhook.x64.lib;dependencies\curl\Release\lib\libcurl_a.lib;shell32.lib;Normaliz.lib;Ws2_32.lib;Wldap32.lib;Crypt32.lib;advapi32.lib;ole32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>X:\dev\freetype\objs\x64\Release Static\freetype.lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
