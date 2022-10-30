@@ -1,4 +1,5 @@
 # Void - Public Code Release
+Mirror: https://git.uwu.me/autumn/Void-Public
 ### Preface
 Void is an internal cheat made for VRChat in C++. Void was discontinued in August of 2022 due to the implementation of Easy Anti-Cheat. I decided it would be smarter to focus more on my education and University work rather than playing cat-and-mouse with EAC. 
 ### Notes
