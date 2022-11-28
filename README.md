@@ -2,6 +2,8 @@
 Mirror: https://git.uwu.me/autumn/Void-Public
 ### Preface
 Void is an internal cheat made for VRChat in C++. Void was discontinued in August of 2022 due to the implementation of Easy Anti-Cheat. I decided it would be smarter to focus more on my education and University work rather than playing cat-and-mouse with EAC. 
+### IMPORTANT
+Compiling the debug version will give you linker errors, simply because the CryptoPP Debug lib was too big to upload on GitHub. This file will be self-hosted soon so you'll be able to download it.
 ### Notes
 * This code is licensed under the GNU GPLv3 license, meaning you can do anything you want with the code, but it ***cannot be closed source***. Please contact me for permission if you would like to use some of this code in a closed source project at a@uwu.me.
 * If you open this in Visual Studio, do not use VS's filters, instead make sure you click to "Show All Files" box.
